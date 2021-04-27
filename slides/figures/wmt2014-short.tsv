@@ -1,0 +1,16 @@
+name	BLEU
+"LSTM6 + 
+PosUnk
+Luong et al.
+(2014)"	37.5
+"GNMT+RL
+Wu et al.
+(2016)"	39.9
+"Weighted
+Transformer 
+Ahmed et al.
+(2017)"	41.4
+"Transformer 
+Big +BT
+Edunov et al.
+(2018)"	45.6
