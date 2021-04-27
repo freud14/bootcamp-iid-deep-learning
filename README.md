@@ -10,4 +10,4 @@ Présentation des bases de l'apprentissage profonds avec des exemples utilisant 
  - Entraînement et descente en gradient
  - Base des réseaux à convolutions
 
-**Prérequis:** Connaissance de base en apprentissage automatique (présentation précédente)
+**Prérequis:** Connaissances de base en apprentissage automatique (présentation précédente)
