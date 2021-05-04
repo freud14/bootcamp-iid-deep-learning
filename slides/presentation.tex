@@ -354,7 +354,7 @@
 \begin{frame}
 	\frametitle{Computer Vision}
 	\begin{itemize}
-		\item<1-> Object classification
+		\item<1-> Image classification
 		\only<1>{
 			\\\includegraphics[scale=1]{image_classification}\\\tiny\mCite{Krizhevsky2012ImageNetCW}
 		}
@@ -530,8 +530,8 @@
 				\end{axis}
 				\end{tikzpicture}
 		\end{center}
-		\item<2-> The ReLU function:
-		\only<2>{$$\text{ReLU}(z) = \max(0, z)$$}
+		\item<3-> The ReLU function:
+		\only<3>{$$\text{ReLU}(z) = \max(0, z)$$}
 		\begin{center}
 			\begin{tikzpicture}
 				\begin{axis}[
@@ -549,8 +549,8 @@
 				\end{axis}
 			\end{tikzpicture}
 		\end{center}
-		\item<3-> The logistic function (also called sigmoid function):
-		\only<3>{$$\sigma(z) = \frac{1}{1+\exp(-z)}$$}
+		\item<4-> The logistic function (also called sigmoid function):
+		\only<4>{$$\sigma(z) = \frac{1}{1+\exp(-z)}$$}
 		\begin{center}
 			\begin{tikzpicture}
 			\begin{axis}[
@@ -569,8 +569,8 @@
 			\end{axis}
 			\end{tikzpicture}
 		\end{center}
-		\item<4-> The softmax function:
-		\only<4>{$$\softmax{z}_i = \frac{\exp(z_i)}{\sum_{j=1}^m \exp(z_j)}$$ for $z = Wx + b \in \real^m$.}
+		\item<5-> The softmax function:
+		\only<5>{$$\softmax{z}_i = \frac{\exp(z_i)}{\sum_{j=1}^m \exp(z_j)}$$ for $z = Wx + b \in \real^m$.}
 	\end{itemize}
 \end{frame}
 
@@ -903,8 +903,8 @@
 				\end{axis}
 				\end{tikzpicture}
 		\end{center}
-		\item<2-> The ReLU function:
-		\only<2>{$$\text{ReLU}(z) = \max(0, z)$$}
+		\item<3-> The ReLU function:
+		\only<3>{$$\text{ReLU}(z) = \max(0, z)$$}
 		\begin{center}
 			\begin{tikzpicture}
 				\begin{axis}[
@@ -922,8 +922,8 @@
 				\end{axis}
 			\end{tikzpicture}
 		\end{center}
-		\item<3-> The logistic function (also called sigmoid function):
-		\only<3>{$$\sigma(z) = \frac{1}{1+\exp(-z)}$$}
+		\item<4-> The logistic function (also called sigmoid function):
+		\only<4>{$$\sigma(z) = \frac{1}{1+\exp(-z)}$$}
 		\begin{center}
 			\begin{tikzpicture}
 			\begin{axis}[
@@ -942,9 +942,9 @@
 			\end{axis}
 			\end{tikzpicture}
 		\end{center}
-		\item<4-> The softmax function:
-		\only<4>{$$\softmax{z}_i = \frac{\exp(z_i)}{\sum_{j=1}^m \exp(z_j)}$$ for $z = Wx + b \in \real^m$.}
-		\onslide<5>{\begin{center}
+		\item<5-> The softmax function:
+		\only<5>{$$\softmax{z}_i = \frac{\exp(z_i)}{\sum_{j=1}^m \exp(z_j)}$$ for $z = Wx + b \in \real^m$.}
+		\onslide<6>{\begin{center}
 			\begin{tikzpicture}
 			\begin{axis}[
 				xmin=-8, xmax=8,
