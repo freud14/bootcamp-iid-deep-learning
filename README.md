@@ -18,6 +18,6 @@ Exécuter les notebooks
 
 Pour exécuter les notebooks avec un GPU (beaucoup plus rapide), vous pouvez utiliser Google Colab.
 
-1. [Notebook avec le boston house-prices dataset (sklearn_dataset_training.ipynb)](https://colab.research.google.com/github/freud14/bootcamp-iid-2021-deep-learning/blob/master/sklearn_dataset_training.ipynb)
+1. [Notebook avec le California house-prices dataset (sklearn_dataset_training.ipynb)](https://colab.research.google.com/github/freud14/bootcamp-iid-2021-deep-learning/blob/master/sklearn_dataset_training.ipynb)
 2. [Notebook avec MNIST (introduction_pytorch_poutyne.ipynb)](https://colab.research.google.com/github/freud14/bootcamp-iid-2021-deep-learning/blob/master/introduction_pytorch_poutyne.ipynb)
 3. [Notebook avec du transfert d'apprentissage (transfer_learning.ipynb)](https://colab.research.google.com/github/freud14/bootcamp-iid-2021-deep-learning/blob/master/transfer_learning.ipynb)
