@@ -2,10 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
 def softmax(x, axis=1):
     """Compute softmax values for each sets of scores in x."""
     e_x = np.exp(x - np.max(x))
     return e_x / e_x.sum(axis=axis, keepdims=True)
+
 
 MIN = -8
 MAX = 8
@@ -18,17 +20,16 @@ probs = softmax(xy, axis=2)
 
 fig = plt.figure()
 ax = fig.add_subplot(111)
-ax.pcolormesh(x, y, probs[...,0])
-ax.spines['left'].set_position(('axes', 0.5))
-ax.spines['bottom'].set_position(('axes', 0.5))
+ax.pcolormesh(x, y, probs[..., 0])
+ax.spines["left"].set_position(("axes", 0.5))
+ax.spines["bottom"].set_position(("axes", 0.5))
 
-#ax = sns.heatmap(probs[...,0], xticklabels=sample_range, yticklabels=sample_range)
-#ax.invert_yaxis()
+# ax = sns.heatmap(probs[...,0], xticklabels=sample_range, yticklabels=sample_range)
+# ax.invert_yaxis()
 
 plt.tight_layout()
 plt.show()
-#plt.savefig("softmax.pdf")
-
+# plt.savefig("softmax.pdf")
 
 
 """
@@ -54,4 +55,3 @@ fig.colorbar(surf, shrink=0.5, aspect=5)
 
 plt.show()
 """
-
